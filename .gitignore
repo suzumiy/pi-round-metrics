@@ -1,0 +1,26 @@
+# 依赖由包管理器安装，不随源码提交；保留 package-lock.json 等锁文件。
+node_modules/
+
+# 忽略本地构建、类型检查缓存和覆盖率产物。
+/dist/
+/build/
+/coverage/
+*.tsbuildinfo
+
+# 忽略本地打包文件和运行日志。
+*.tgz
+*.zip
+*.log
+
+# 环境变量文件可能包含密钥，仅保留可公开的配置示例。
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# IDE 本地设置与系统生成文件不属于插件源码。
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
