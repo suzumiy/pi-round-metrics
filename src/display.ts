@@ -17,7 +17,7 @@ export function createWorkingLayout(): WorkingLayout {
     tps: 11,
     elapsed: 8,
     tokens: 7,
-    cost: 10,
+    cost: 5,
   };
 }
 
