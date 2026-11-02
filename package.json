@@ -1,0 +1,14 @@
+{
+  "name": "pi-round-metrics",
+  "version": "0.1.0",
+  "private": true,
+  "description": "简洁的 Pi Working 栏：调用延迟、TPS、本轮耗时、token 与花费",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["pi-package", "pi-extension"],
+  "pi": { "extensions": ["./src/index.ts"] },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=1.4.0",
+    "@earendil-works/pi-tui": "*"
+  }
+}

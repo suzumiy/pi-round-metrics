@@ -1,0 +1,7 @@
+{
+  "frames": "dots",
+  "windowMs": 1000,
+  "refreshMs": 200,
+  "thresholds": [10, 30, 60],
+  "colors": ["#ff4444", "#ff88cc", "#ffdd44", "#00ff88"]
+}
